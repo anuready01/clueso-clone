@@ -1,0 +1,18 @@
+@'
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment
+.env
+.env.local
+
+# Uploads
+uploads/
+*.mp4
+*.mov
+*.avi
+
+# Logs
+*.log
+'@ | Out-File -FilePath .gitignore -Encoding UTF8
